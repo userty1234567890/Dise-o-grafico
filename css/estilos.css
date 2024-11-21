@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    background-color: #f4f4f9; /* Color de fondo claro para el sitio */
+    color: #333333; /* Texto oscuro para contraste con el fondo */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para los títulos */
+h1 {
+    color: #1a73e8; /* Color diferente para los títulos (azul) */
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #1a73e8; /* El mismo color que el título principal para consistencia */
+    font-size: 2em;
+}
+
+/* Estilos para la tabla */
+table {
+    background-color: #ffffff; /* Fondo de tabla diferente al del sitio */
+    border: 1px solid #cccccc; /* Bordes ligeros para la tabla */
+    width: 100%;
+    margin: 20px auto;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+img {
+    border-radius: 10px; /* Bordes curvos en las esquinas */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera para darles un pequeño relieve */
+    max-width: 100%; /* Asegura que las imágenes no se desborden */
+    height: auto;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #1a73e8; /* Color del enlace (igual que el título) */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #1a73e8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #1557b3;
+}
